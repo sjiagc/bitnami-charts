@@ -1571,15 +1571,6 @@ provisioning:
       ## When using 'pem' format for certificates, the secret should contain a public CA certificate, a public certificate and one private key.
       ##
       certificatesSecret: ""
-      ## @param provisioning.auth.tls.cert The secret key from the certificatesSecret if 'cert' key different from the default (tls.crt)
-      ##
-      cert: tls.crt
-      ## @param provisioning.auth.tls.key The secret key from the certificatesSecret if 'key' key different from the default (tls.key)
-      ##
-      key: tls.key
-      ## @param provisioning.auth.tls.caCert The secret key from the certificatesSecret if 'caCert' key different from the default (ca.crt)
-      ##
-      caCert: ca.crt
       ## @param provisioning.auth.tls.keystore The secret key from the certificatesSecret if 'keystore' key different from the default (keystore.jks)
       ##
       keystore: keystore.jks
